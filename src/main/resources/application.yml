@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost/email?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+  mail:
+    host: smtp.163.com
+    username: 13924926387@163.com
+    password: 3856931a
+    properties:
+        mail:
+            smtp:
+                auth: true
+                timeout: 25000
